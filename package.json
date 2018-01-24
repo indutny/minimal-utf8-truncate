@@ -8,6 +8,7 @@
     "test": "nyc mocha --reporter=spec test/*-test.js && npm run lint"
   },
   "files": [
+    "README.md",
     "index.js"
   ],
   "repository": {
