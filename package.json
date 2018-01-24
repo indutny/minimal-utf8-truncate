@@ -1,0 +1,34 @@
+{
+  "name": "minimal-utf8-truncate",
+  "version": "1.0.0",
+  "description": "Minimal utf8 truncation library",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js test/*.js",
+    "test": "nyc mocha --reporter=spec test/*-test.js && npm run lint"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/minimal-utf8-truncate.git"
+  },
+  "keywords": [
+    "utf8",
+    "truncate",
+    "javascript"
+  ],
+  "author": "Fedor Indutny <fedor@indutny.com> (http://darksi.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indutny/minimal-utf8-truncate/issues"
+  },
+  "homepage": "https://github.com/indutny/minimal-utf8-truncate#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.0",
+    "nyc": "^11.4.1"
+  }
+}
