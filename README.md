@@ -8,7 +8,10 @@ _The main pros of using this library is that it is self-sufficient, and does not
 depend on either C++ code, or Buffer implementation._
 
 ## Install
-`npm install minimal-utf8-truncate`
+
+```bash
+npm install minimal-utf8-truncate
+```
 
 ## Usage
 
