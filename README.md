@@ -1,5 +1,6 @@
 # minimal-utf8-truncate
 [![Build Status](https://secure.travis-ci.org/indutny/minimal-utf8-truncate.svg)](http://travis-ci.org/indutny/minimal-utf8-truncate)
+[![NPM version](https://badge.fury.io/js/minimal-utf8-truncate.svg)](http://badge.fury.io/js/minimal-utf8-truncate)
 
 Truncate input strings so that their binary utf-8 encoding would not exceed
 specific limit.
